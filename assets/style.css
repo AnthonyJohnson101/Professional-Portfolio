@@ -43,8 +43,26 @@ a {
     text-decoration: none;
 }
 
+.head-img {
+    height: 250px;
+    width: 100%;
+    background-image: url("./images/02-hero-bg.jpg")
 
+}
 
+.head-img h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: lightblue;
+    
+}
+
+/* Used to force the subtitle text down */
+.head-img div {
+    height: 200px;
+}
 .about-me {
     margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -72,3 +90,14 @@ a {
     font-size: 20px;
 }
 
+.work {
+
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 300px;
+    display: flex;
+
+}
