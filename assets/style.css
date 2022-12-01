@@ -43,21 +43,32 @@ a {
     text-decoration: none;
 }
 
-.belowheader {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./images/02-hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
 
+
+.about-me {
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 300px;
+    display: flex;
 }
 
-.bottom-right {
-
+.about-me h1 {
+    padding-right: 100px;
+    width: 300px;
+    height: 100%;
+    white-space: nowrap;
+    
 }
 
-.secttitles {
-    margin-top: 30px;
-    margin-left: 30px;
+.about-me-text {
+    width: 1300px;
+    text-indent: 0px;
+    border-width: 5px;
+    border-left-style: solid;
+    padding-left: 50px;
+    font-size: 20px;
 }
+
